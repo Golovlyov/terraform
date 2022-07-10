@@ -6,7 +6,7 @@ region = "eu-central-1"
 
 resource "aws_instance" "ubuntu" {
 ami = "ami-065deacbcaac64cf2"
-instance_type = "t2.mikro"
+instance_type = "t2.micro"
 }
 
 
